@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        h2 {
+            margin-left: 28em;
+        }
+    </style>
+</head>
+<body>
+    <section class="navbar">
+        <div class="container">
+            <div class="content">
+                <div class="brand flex">
+                    <i class="fa fa-heartbeat"></i>
+                    <h3>COVID VACCINATIONS</h3>
+                    <img src="Images/icon.png" alt="vaccine-icon" class="icon">
+                </div>
+
+                <nav id="menuitem">
+                    <ul id="menuitem">
+                        <li class="active"><a href="index.html">HOME</a> </li>
+                        <li class="list-item"><a href="about.html">About</a></li>
+                        <li class="list-item"><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </section>
+
+    <h2>Contact Us</h2>
+    <form action="mailto:meghavika.baidya2021@vitstudent.ac.in, atharvagopinath.kulkarni2021@vitstudent.ac.in" method="post" enctype="text/plain">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" required><br><br>
+
+        <label for="feedback">Feedback and Improvement:</label><br>
+        <textarea id="feedback" name="feedback" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
