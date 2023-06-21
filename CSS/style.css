@@ -160,7 +160,7 @@ td {
 }
 
 .links a {
-    font-size: large;
+    font-size: medium;
     /* top: 20%; */
     color: rgba(18, 217, 236, 0.722);
     /* text-decoration: underline; */
