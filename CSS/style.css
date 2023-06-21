@@ -284,3 +284,7 @@ input[type=submit]:hover {
     margin: auto 30% 30%;
     text-decoration: none;
 }
+
+.grid-container{
+font-family: font-family: 'Lora', serif;
+}
